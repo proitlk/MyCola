@@ -88,6 +88,7 @@
             this.btnClean.TabIndex = 5;
             this.btnClean.Text = "Clean";
             this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // login
             // 

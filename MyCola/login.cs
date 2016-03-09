@@ -35,5 +35,11 @@ namespace MyCola
             }
 
         }
+
+        private void btnClean_Click(object sender, EventArgs e)
+        {
+            txtUser.Text = "";
+            txtPass.Text = "";
+        }
     }
 }
