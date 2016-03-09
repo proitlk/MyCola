@@ -1,9 +1,0 @@
-D:\Projrcts\MyCola\MyCola\bin\Debug\MyCola.exe
-D:\Projrcts\MyCola\MyCola\bin\Debug\MyCola.pdb
-D:\Projrcts\MyCola\MyCola\obj\Debug\ResolveAssemblyReference.cache
-D:\Projrcts\MyCola\MyCola\obj\Debug\MyCola.login.resources
-D:\Projrcts\MyCola\MyCola\obj\Debug\MyCola.main_form.resources
-D:\Projrcts\MyCola\MyCola\obj\Debug\MyCola.Properties.Resources.resources
-D:\Projrcts\MyCola\MyCola\obj\Debug\MyCola.csproj.GenerateResource.Cache
-D:\Projrcts\MyCola\MyCola\obj\Debug\MyCola.exe
-D:\Projrcts\MyCola\MyCola\obj\Debug\MyCola.pdb
