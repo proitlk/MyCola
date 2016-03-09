@@ -7,11 +7,12 @@ using System.Text;
 
 namespace MyCola
 {
-    class DB
+    public class DB
     {
         public MySqlConnection connection()
         {
-            string connection = "server=localhost; database=my_cola; uid=root; password=123456";
+            string strConn = "server=localhost; database=my_cola; uid=root; password=123456";
+            return new MySqlConnection(strConn);
         }
     }
 }
