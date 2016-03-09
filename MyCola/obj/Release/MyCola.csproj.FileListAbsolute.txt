@@ -1,0 +1,9 @@
+D:\Projrcts\MyCola\MyCola\obj\Release\ResolveAssemblyReference.cache
+D:\Projrcts\MyCola\MyCola\obj\Release\MyCola.login.resources
+D:\Projrcts\MyCola\MyCola\obj\Release\MyCola.main_form.resources
+D:\Projrcts\MyCola\MyCola\obj\Release\MyCola.Properties.Resources.resources
+D:\Projrcts\MyCola\MyCola\obj\Release\MyCola.csproj.GenerateResource.Cache
+D:\Projrcts\MyCola\MyCola\bin\Release\MyCola.exe
+D:\Projrcts\MyCola\MyCola\bin\Release\MyCola.pdb
+D:\Projrcts\MyCola\MyCola\obj\Release\MyCola.exe
+D:\Projrcts\MyCola\MyCola\obj\Release\MyCola.pdb
