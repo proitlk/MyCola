@@ -33,7 +33,6 @@ namespace MyCola
                 mf.Show();
                 this.Hide();
             }
-
         }
 
         private void btnClean_Click(object sender, EventArgs e)

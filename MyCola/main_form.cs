@@ -20,5 +20,20 @@ namespace MyCola
         {
             Application.Exit();
         }
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            createUser cUser = createUser.Instance;
+            cUser.MdiParent = this;
+            if (cUser.Visible == true)
+            {
+                cUser.Activate();
+            }
+            else
+            {
+                createUser.Instance.Show();
+            }
+
+        }
     }
 }
