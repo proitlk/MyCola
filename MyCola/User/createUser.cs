@@ -28,5 +28,10 @@ namespace MyCola
                 return createUser.singleton;
             }
         }
+
+        private void createUser_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            createUser.singleton = null;
+        }
     }
 }
