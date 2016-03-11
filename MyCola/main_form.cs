@@ -35,5 +35,31 @@ namespace MyCola
             }
 
         }
+
+        private void distributorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            distributor dist = distributor.Instance;
+            dist.MdiParent = this;
+            if (dist.Visible == true)
+            {
+                dist.Activate();
+            }
+            else {
+                distributor.Instance.Show();
+            }
+        }
+
+        private void privilagesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            privilages pri = privilages.Instance;
+            pri.MdiParent = this;
+            if (pri.Visible == true)
+            {
+                pri.Activate();
+            }
+            else {
+                privilages.Instance.Show();
+            }
+        }
     }
 }

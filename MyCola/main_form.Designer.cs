@@ -34,10 +34,11 @@
             this.bbbToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aaaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aaaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.distributorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abababToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sdnvToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.privilagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +68,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aaaToolStripMenuItem1,
-            this.aaaaToolStripMenuItem,
+            this.distributorToolStripMenuItem,
             this.abababToolStripMenuItem,
             this.sdnvToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -79,16 +80,25 @@
             // aaaToolStripMenuItem1
             // 
             this.aaaToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.userToolStripMenuItem});
+            this.userToolStripMenuItem,
+            this.privilagesToolStripMenuItem});
             this.aaaToolStripMenuItem1.Name = "aaaToolStripMenuItem1";
             this.aaaToolStripMenuItem1.Size = new System.Drawing.Size(55, 20);
             this.aaaToolStripMenuItem1.Text = "Admin";
             // 
-            // aaaaToolStripMenuItem
+            // userToolStripMenuItem
             // 
-            this.aaaaToolStripMenuItem.Name = "aaaaToolStripMenuItem";
-            this.aaaaToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
-            this.aaaaToolStripMenuItem.Text = "aaaa";
+            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
+            this.userToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
+            this.userToolStripMenuItem.Text = "User";
+            this.userToolStripMenuItem.Click += new System.EventHandler(this.userToolStripMenuItem_Click);
+            // 
+            // distributorToolStripMenuItem
+            // 
+            this.distributorToolStripMenuItem.Name = "distributorToolStripMenuItem";
+            this.distributorToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.distributorToolStripMenuItem.Text = "Distributor";
+            this.distributorToolStripMenuItem.Click += new System.EventHandler(this.distributorToolStripMenuItem_Click);
             // 
             // abababToolStripMenuItem
             // 
@@ -102,12 +112,12 @@
             this.sdnvToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.sdnvToolStripMenuItem.Text = "sdnv";
             // 
-            // userToolStripMenuItem
+            // privilagesToolStripMenuItem
             // 
-            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
-            this.userToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.userToolStripMenuItem.Text = "User";
-            this.userToolStripMenuItem.Click += new System.EventHandler(this.userToolStripMenuItem_Click);
+            this.privilagesToolStripMenuItem.Name = "privilagesToolStripMenuItem";
+            this.privilagesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.privilagesToolStripMenuItem.Text = "Privilages";
+            this.privilagesToolStripMenuItem.Click += new System.EventHandler(this.privilagesToolStripMenuItem_Click);
             // 
             // main_form
             // 
@@ -136,9 +146,10 @@
         private System.Windows.Forms.ToolStripMenuItem bbbToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aaaToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem aaaaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem distributorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abababToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sdnvToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem privilagesToolStripMenuItem;
     }
 }

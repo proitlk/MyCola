@@ -50,6 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.cs" />
+    <Compile Include="distributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distributor.Designer.cs">
+      <DependentUpon>distributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="privilages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="privilages.Designer.cs">
+      <DependentUpon>privilages.cs</DependentUpon>
+    </Compile>
     <Compile Include="User\createUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +83,14 @@
     <Compile Include="md5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="distributor.resx">
+      <DependentUpon>distributor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="privilages.resx">
+      <DependentUpon>privilages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="User\createUser.resx">
       <DependentUpon>createUser.cs</DependentUpon>
       <SubType>Designer</SubType>
