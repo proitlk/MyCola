@@ -32,10 +32,5 @@ namespace MyCola
         {
             distributor.singletone = null;
         }
-
-        private void distributor_Load(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
